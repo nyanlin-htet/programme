@@ -1,0 +1,44 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+    color:white
+}
+
+
+nav {
+    height: 100px;
+    width: 100%;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+
+ul li a {
+    font-size: 30px;
+    font-family: arial;
+    line-height: 50px;
+    padding: 0 20px;
+}
+a {
+    color: white
+}
+a:visited {
+    color: white
+}
+
+table, tr, td, th, caption {
+    border: 1px solid #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
